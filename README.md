@@ -11,7 +11,7 @@ You can find the full recording of the system working in the **`/Media`** folder
 I moved away from the standard Arduino IDE for this project to use a more professional workflow:
 
 - **Firmware**: Developed in **VS Code + PlatformIO** using C++. This allowed for better folder structure (`src/`, `include/`) and automated dependency management.
-- **Hardware Documentation**: Designed a full schematic in **`/Hand_Sensor_HMI`** **KiCad** to ensure signal integrity and proper power distribution.
+- **Hardware Documentation**: Designed a full schematic in **KiCad** to ensure signal integrity and proper power distribution, it can be found in **`/Hand_Sensor_HMI`**.
 - **Host App**: A Python script using `pyserial` for data acquisition and `PyAutoGUI` for system-level volume control.
 
 ## 📐 Hardware Specifications
